@@ -1,0 +1,41 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center ;
+    max-width: 1150px;
+    margin: auto;
+    padding: 25px 15px;
+}
+
+.primary-nav {
+    display: flex;
+    gap: 20px;
+    list-style-type: none;
+}
+
+.nav-item {
+    text-decoration: none;
+    text-transform: uppercase;
+}
+
+.hero-wrapper {
+    background-color:  hsl(256, 26%, 20%);
+}
+
+
+.hero {
+    
+     max-width: 1150px;
+    margin: auto;
+    padding: 25px 15px;
+    display: flex;
+
+}
